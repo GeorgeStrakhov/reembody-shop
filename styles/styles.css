@@ -6170,6 +6170,13 @@ h1 {
   text-decoration: none;
   text-shadow: 0 0 0.5em #444;
 }
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  font-size: 32px;
+  padding: 0.2em 0;
+}
 #at4win-footer {
   height: 20px !important;
 }
