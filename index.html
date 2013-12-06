@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Reembody Shop :: Holiday Gift PAckage</title>
+
+		<!-- Custom styles -->
+		<link href="styles/styles.min.css" rel="stylesheet">
+
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+				<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+				<![endif]-->
+
+		<!-- scripts -->
+		<script src="scripts/built.min.js"></script>
+		<script src="http://127.0.1.1:35729/livereload.js"></script>
+	</head>
+
+	<body>
+
+		<!-- snowflakes come! -->
+		<div class="snowglobe" id="snowglobe"></div>
+
+		<!-- ribbon -->
+		<div class="ribbon hidden-xs">
+			<a href="http://reembody.me/about/" target="_blank">Learn more about Reembody</a>
+		</div>
+
+		<div class="container">
+
+			<div class="header">
+
+				<!-- logo -->
+				<div class="row align-center margin-top-lg">
+					<div class="col-md-2 col-md-offset-5 col-xs-6 col-xs-offset-3">
+						<a href="http://reembody.me/about/" target="blank">
+						<img src="img/xmas-logo-invert.png" class="img-responsive img-logo" alt="Reembody logo"/>
+						</a>
+					</div>
+				</div>
+
+				<div class="row align-center">
+					<h1>Reembody Holiday <br class="visible-xs" />Gift Package</h1>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 lead">
+						<p>Sure, you could give them a sweater, a gift card or a box of assorted chocolates.</p><p>Or you could give them a low back that doesn’t hurt. You could give them a neck without tension, a knee they can trust or a shoulder that doesn’t click: maybe two. You could give them a better night’s sleep, a faster race time or a heavier lift. Modern life has a way of taking a person out of their body. You could give it back.</p>
+						<div class="CTA-block">
+							<button class="btn btn-lg btn-CTA" data-toggle="modal" data-target="#buyModal">Buy now</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div><!-- /.container -->
+
+		<!-- buy modal -->
+		<div class="modal fade" id="buyModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title align-center" id="myModalLabel">Buy a Reembody Gift Package</h4>
+					</div>
+					<div class="modal-body">
+						<!-- paypal form -->
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" role="form">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="SUX7G5UMSYN9J">
+							<input type="hidden" name="on0" value="Select Gift Package:">
+							<input type="hidden" name="on1" value="Your contact email:">
+							<div class="form-group">
+								<label for="inputEmail">Your Email address:</label>
+								<input type="text" name="os1" maxlength="200" id="inputEmail" class="form-control" placeholder="Enter email">
+							</div>
+							<div class="form-group">
+								<label for="selectPackage">Select Reembody Gift Package:</label>
+								<select name="os0" id="selectPackage" class="form-control">
+									<option value="3 Private Sessions in Hong Kong / Kowloon">3 Private Sessions in Hong Kong / Kowloon $2,000.00 HKD</option>
+									<option value="3 Private Sessions in New Territories">3 Private Sessions in New Territories $2,600.00 HKD</option>
+									<option value="3 Skype Sessions" selected>3 Skype Sessions $900.00 HKD</option>
+								</select>
+							</div>
+							<div class="align-center margin-top-lg">
+								<input type="image" src="https://www.paypalobjects.com/en_GB/HK/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+							</div>
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+						</form>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+		<!-- addthis -->
+		<!-- AddThis Smart Layers BEGIN -->
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52a14a630e532a7d"></script>
+		<script type="text/javascript">
+		addthis.layers({
+			'theme' : 'transparent',
+			'share' : {
+				'position' : 'right',
+				'numPreferredServices' : 4
+			},
+			'follow' : {
+				'services' : [
+				{'service': 'facebook', 'id': 'Reembody'},
+				{'service': 'twitter', 'id': 'ReembodyMe'}
+				]
+			}
+		});
+		</script>
+		<!-- AddThis Smart Layers END -->
+	</body>
+</html>
