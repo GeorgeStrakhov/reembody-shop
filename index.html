@@ -22,6 +22,9 @@
 
 		<!-- scripts -->
 		<script src="scripts/built.min.js"></script>
+
+		<!-- livereload -->
+		<script src="http://127.0.1.1:35729/livereload.js"></script>
 	</head>
 
 	<body>
@@ -55,8 +58,13 @@
 					<h1>Reembody Holiday <br class="visible-xs" />Gift Package</h1>
 				</div>
 
+			</div>
+
+			<div class="mainContent">
+
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 lead">
+						<p>During the month of December, we’re offering a special Holiday Gift Package for folks new to the Reembody method: THREE private sessions with <a href="http://reembody.me/about/" target="_blank">Chief&nbsp;Movement&nbsp;Therapist,&nbsp;Kevin&nbsp;C&nbsp;Moore</a>, for just HKD $2000 (original value: HKD $2550).</p>
 						<p>Sure, you could give them a sweater, a gift card or a box of assorted chocolates.</p><p>Or you could give them a low back that doesn’t hurt. You could give them a neck without tension, a knee they can trust or a shoulder that doesn’t click: maybe two. You could give them a better night’s sleep, a faster race time or a heavier lift. Modern life has a way of taking a person out of their body. You could give it back.</p>
 						<div class="CTA-block">
 							<button class="btn btn-lg btn-CTA" data-toggle="modal" data-target="#buyModal">Buy now</button>
@@ -64,6 +72,16 @@
 					</div>
 				</div>
 
+			</div>
+
+			<div class="footer">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 align-center">
+						<p>
+							&copy; <a href="http://reembody.me" target="_blank">Reembody</a> | <a href="#termsModal" data-toggle="modal" data-target="#termsModal">Terms and Conditions</a>
+						</p>
+					</div>
+				</div>
 			</div>
 
 		</div><!-- /.container -->
@@ -90,9 +108,8 @@
 							<div class="form-group">
 								<label for="selectPackage">Select Reembody Gift Package:</label>
 								<select name="os0" id="selectPackage" class="form-control">
-									<option value="3 Private Sessions in Hong Kong / Kowloon">3 Private Sessions in Hong Kong / Kowloon $2,000.00 HKD</option>
+									<option selected value="3 Private Sessions in Hong Kong / Kowloon">3 Private Sessions in Hong Kong / Kowloon $2,000.00 HKD</option>
 									<option value="3 Private Sessions in New Territories">3 Private Sessions in New Territories $2,600.00 HKD</option>
-									<option value="3 Skype Sessions" selected>3 Skype Sessions $900.00 HKD</option>
 								</select>
 							</div>
 							<div class="align-center margin-top-lg">
@@ -100,6 +117,24 @@
 							</div>
 							<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 						</form>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+		<!-- terms modal -->
+		<div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title align-center" id="myModalLabel">Terms and Conditions</h4>
+					</div>
+					<div class="modal-body">
+						<p>Subject to availability.</p>
+						<p>Sessions can be held at any location of the client’s choosing (visits to the New Territories are an additional $200), including the Reembody studio in Wan Chai.</p>
+						<p>Package holders or former package holders are not eligible for the holiday gift package.</p>
+						<p>The holiday gift package expires March 31st, 2014.</p>
 					</div>
 				</div><!-- /.modal-content -->
 			</div><!-- /.modal-dialog -->

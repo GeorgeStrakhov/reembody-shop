@@ -6097,7 +6097,6 @@ h1 {
 .CTA-block {
   margin-top: 30px;
   text-align: center;
-  padding-bottom: 60px;
 }
 @media (min-width: 1200px) {
   .CTA-block {
@@ -6137,6 +6136,16 @@ h1 {
   -webkit-box-shadow: 0 0.1em 0.8em #222222;
   -moz-box-shadow: 0 0.1em 0.8em #222222;
   box-shadow: 0 0.1em 0.8em #222222;
+}
+.footer {
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+@media (min-width: 1200px) {
+  .footer {
+    margin-top: 45px;
+    margin-bottom: 0;
+  }
 }
 .modal {
   color: #4f6126;
@@ -6179,4 +6188,9 @@ h1 {
 }
 #at4win-footer {
   height: 20px !important;
+}
+.at4m-listitem *,
+.at4m-listitem :after,
+.at4m-listitem :before {
+  box-sizing: content-box !important;
 }
